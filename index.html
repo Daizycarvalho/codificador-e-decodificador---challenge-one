@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codificador e Decodificador de Textos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1 class="descricao">CODIFICADOR E DECODIFICADOR DE TEXTOS</h1>
+    </header>
+     <main class="container">
+    <div class="container">
+      <label for="texto">⚠ Utilize apenas letras minúsculas, sem caracteres especiais. </label>
+      <textarea id="texto" placeholder="Insira o texto aqui"></textarea>
+      <button onclick="codificar()">Codificar</button>
+      <button onclick="decodificar()">Decodificar</button>
+    </div>
+    <div class="container">
+      <p>Texto Codificado/Decodificado:</p>
+      <textarea id="saida" class="empty" readonly></textarea>
+      <div class="button">
+        <button onclick="copiarTexto()">Copiar</button>
+      </div>
+      </div>
+  </main>
+
+  <footer class="rodape">
+    <p>Desenvolvido por Daizy Carvalho &copy; 2024</p>
+        <a class="social-links" href="https://github.com/Daizycarvalho">
+        <img src="./assets/icone github.png">
+        <a class="social-links" href="https://www.linkedin.com/in/daizy-carvalho-21aa4172">
+        <img src="./assets/icone linkedin.png">
+      </a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
